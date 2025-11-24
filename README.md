@@ -65,3 +65,9 @@ Update or delete investments
 Check portfolio analysis
 
 Save and exit
+
+## Abstract
+   the project focuses on building an investment portfolio management system that helps analyze assets, calculate risk, track returns, and optimize investment decisions. it aims to support investors by providing tools for diversification and performance monitoring.
+
+## summary
+    the portfolio management project includes features such as asset allocation, investment tracking,risk assessment,and performance comparision.it helps users understand how their investments grow over time and supports data-driven decisions.
