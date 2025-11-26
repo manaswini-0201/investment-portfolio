@@ -71,3 +71,6 @@ Save and exit
 
 ## summary
     the portfolio management project includes features such as asset allocation, investment tracking,risk assessment,and performance comparision.it helps users understand how their investments grow over time and supports data-driven decisions.
+
+<img width="612" height="361" alt="Screenshot 2025-11-19 094622" src="https://github.com/user-attachments/assets/4c74539d-0198-4ae6-88df-97a50a1a5a62" />
+
