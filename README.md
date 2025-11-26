@@ -70,7 +70,5 @@ Save and exit
    the project focuses on building an investment portfolio management system that helps analyze assets, calculate risk, track returns, and optimize investment decisions. it aims to support investors by providing tools for diversification and performance monitoring.
 
 ## summary
-    the portfolio management project includes features such as asset allocation, investment tracking,risk assessment,and performance comparision.it helps users understand how their investments grow over time and supports data-driven decisions.
-
-<img width="612" height="361" alt="Screenshot 2025-11-19 094622" src="https://github.com/user-attachments/assets/4c74539d-0198-4ae6-88df-97a50a1a5a62" />
+    the portfolio management project includes features such as asset allocation, investment tracking,risk assessment,and performance comparision.it helps users understand how their investments grow over time and supports data-driven decisions.<img width="412" height="403" alt="s1" src="https://github.com/user-attachments/assets/a94148e0-25a6-48be-9d14-cb0cfda53b88" />
 
