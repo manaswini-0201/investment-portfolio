@@ -1,8 +1,8 @@
-Project Title
+## Project Title
 
 Investment Portfolio Management System
 
-Functional Requirements
+## Functional Requirements
 1. Add Investment
 
 Enter asset name/ticker, quantity, buy price, and date.
@@ -33,7 +33,7 @@ Calculate total value, profit/loss, average cost, and allocation.
 
 Save all changes permanently to portfolio.csv.
 
-Features
+## Features
 
 Uses CSV file handling for data storage.
 
@@ -47,7 +47,7 @@ Clean and user-friendly text interface.
 
 Easy to run and modify.
 
-How to Run the Project
+## How to Run the Project
 Step-1: Install Dependencies
 pip install -r requirements.txt
 
