@@ -1,4 +1,4 @@
-##Functional Requirements
+## Functional Requirements
 1. Add a New Investment
 
 User enters:
