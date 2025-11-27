@@ -1,75 +1,75 @@
-## Project Title
+##Functional Requirements
+1. Add a New Investment
 
-Investment Portfolio Management System
+User enters:
 
-## Functional Requirements
-1. Add Investment
+Investment name (single-word string)
 
-Enter asset name/ticker, quantity, buy price, and date.
+Amount invested (float)
 
-Store investment details in a file (portfolio.csv).
+A new investment is stored in the portfolio array.
 
-2. View Investments
+Maximum of 50 investments (as defined by #define MAX 50).
 
-Display all saved investment records in a clean table format.
+2. View Current Portfolio
 
-3. Search Investment
+Displays a list of all saved investments.
 
-Find an investment using asset ticker or name.
+Each entry shows:
 
-4. Update Investment
+Index number
 
-Modify quantity, price, or notes of an existing investment.
+Investment name
 
-5. Delete Investment
+Dollar amount (formatted to two decimals)
 
-Remove an investment record from the file.
+3. Calculate Total Value
 
-6. Portfolio Analysis
+Sums up all investment amounts in the portfolio.
 
-Calculate total value, profit/loss, average cost, and allocation.
+Displays the total value formatted as currency.
 
-7. Save & Exit
+4. Exit Program
 
-Save all changes permanently to portfolio.csv.
+Ends the program loop and prints a goodbye message.
+
+5. Input Validation
+
+Checks menu options for validity.
+
+Prevents adding investments once the maximum limit is reached.
 
 ## Features
 
-Uses CSV file handling for data storage.
+- Simple, text-based interface
 
-Menu-driven command-line interface.
+- Uses C struct to store investment data
 
-Handles multiple investment records.
+- Supports up to 50 investment entries
 
-Prevents duplicate asset ticker entries.
+- Live total calculation
 
-Clean and user-friendly text interface.
+- Lightweight and runs in any standard C environment
 
-Easy to run and modify.
+## How to Run the Program
+1. Save the Code
 
-## How to Run the Project
-Step-1: Install Dependencies
-pip install -r requirements.txt
+Save the program to a file, e.g.:
 
-Step-2: Run the Program
-python portfolio.py
+portfolio.c
 
-Step-3: Use the Menu Options
+2. Compile the Code
 
-Add new assets
+Use a C compiler such as gcc:
 
-View portfolio
+gcc portfolio.c -o portfolio
 
-Update or delete investments
-
-Check portfolio analysis
-
-Save and exit
+3. Run the Program
+./portfolio
 
 ## Abstract
-   the project focuses on building an investment portfolio management system that helps analyze assets, calculate risk, track returns, and optimize investment decisions. it aims to support investors by providing tools for diversification and performance monitoring.
+
+This program is a simple console-based Investment Portfolio Manager written in C. It allows users to record different investments, view the current portfolio, and calculate the total invested value. It demonstrates basic C concepts such as structures, arrays, loops, user input, and menu-driven programs.
 
 ## summary
-    the portfolio management project includes features such as asset allocation, investment tracking,risk assessment,and performance comparision.it helps users understand how their investments grow over time and supports data-driven decisions.
-<img width="412" height="403" alt="s1" src="https://github.com/user-attachments/assets/a94148e0-25a6-48be-9d14-cb0cfda53b88" />
-
+     The application maintains a list of investments using a struct and a fixed-size array. Users can interact with a menu to add new investments, display all stored investments, or compute the total amount invested. The system runs until the user chooses to exit.
