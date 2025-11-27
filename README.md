@@ -73,3 +73,5 @@ This program is a simple console-based Investment Portfolio Manager written in C
 
 ## summary
      The application maintains a list of investments using a struct and a fixed-size array. Users can interact with a menu to add new investments, display all stored investments, or compute the total amount invested. The system runs until the user chooses to exit.
+
+<img width="412" height="403" alt="s1" src="https://github.com/user-attachments/assets/be1d6474-53f4-417c-b1a4-f1e146bc4192" />
